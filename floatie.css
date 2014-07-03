@@ -1,0 +1,159 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                                                                %%% 
+                                 FLOATIE FRAMEWORK                              %%%
+                                                                                %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+
+/*BASIC STUFF############################################################################*/
+
+/*container for the whole page-------------------*/
+
+.fullcontainer {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*first column; one column layout----------------*/
+
+.col, .twocol-left, .twocol-right, .threecol-left, .threecol-center, .threecol-right, .fourcol-left, .fourcol-center-left,
+.fourcol-center-right, .fourcol-right {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*images-----------------------------------------*/
+
+img {
+    width:100%;
+}
+
+/*WIDER##################################################################################*/
+
+/*<750-------------------------------------------*/
+
+@media (min-width: 750px) {
+
+    /*clear!-------------------------------------*/
+    
+    .clear {
+        clear:both;
+    }
+    
+    /*2columns---------------------------------------*/
+    
+    .twocol-left {
+        float:left;
+        width: 42.5%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    
+    .twocol-right {
+        float:right;
+        width: 42.5%;
+        margin-right:5%;
+    }
+    
+    .twocol-left-fourcol {
+        float:left;
+        width:44.17%;
+        margin-left:5%;
+        margin-right:1.66%;
+    }
+    
+    .twocol-right-fourcol {
+        float:right;
+        width:44.17%;
+        margin-right:5%;
+    }
+    
+    .twocol-big {
+        width: 60%;
+    }
+    
+    .twocol-small {
+        width: 25%;
+    }
+    
+    .twocol-bigger {
+        width: 70%;
+    }
+    
+    .twocol-smaller {
+        width: 15%;
+    }
+}
+
+/*<850-------------------------------------------*/
+
+@media (min-width: 850px) {
+    
+    /*3columns---------------------------------------*/
+    
+    .threecol-left {
+        float:left;
+        width:28.33%;
+        margin-left:5%;
+        margin-right:2.5%;
+    }
+    
+    .threecol-center {
+        float:left;
+        width:28.33%;
+        margin-right:2.5%;
+    }
+    
+    .threecol-right {
+        float:right;
+        width:28.33%;
+        margin-right:5%;
+    }
+        
+    
+}
+
+/*<950------------------------------------------*/
+
+@media (min-width: 950px) {
+    
+    /*4columns---------------------------------------*/
+    
+    .fourcol-left {
+        float:left;
+        width:48.33%;
+        margin-left:0;
+        margin-right:1.66%;
+    }
+    
+    .fourcol-center-left {
+        float:right;
+        width:48.33%;
+    }
+    
+    .fourcol-center-right {
+        float:left;
+        width:48.33%;
+        margin-right:1.66%;
+    }
+    
+    .fourcol-right {
+        float:right;
+        width:48.33%;
+    }
+    
+}
+
+/*<1170------------------------------------------*/
+
+@media (min-width: 1100px) {
+    
+    /*fix fullcontainer size-------------------------*/
+    
+    .fullcontainer {
+        width:1100px;
+    }
+}
+
