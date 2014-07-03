@@ -11,7 +11,7 @@ A demo is available [here.](http://vrunn.github.io/Floatie-Framework/)
 
 ## How-to
 
-- **Classes**
+### Classes
 
 * fullcontainer: A 100% width wrapper for the full page. All the column layouts will give you a 5% margin per-side of the page, therefore occupy 90% of its width.
 * twocol-left: Creates a column to the left.
